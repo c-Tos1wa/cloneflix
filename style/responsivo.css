@@ -1,0 +1,42 @@
+@media screen and (max-width: 650px) {
+  .box{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+  .menu{
+    font-size: 10px;
+  }
+  .menu-item{
+    padding: 4px;
+    margin-bottom: 5px;
+  }
+  .logo{
+    margin: 5px;
+    padding: 8px; 
+  }
+
+  .principal{
+    height: auto;
+    width: 90%;
+    margin: 15px;
+    padding: 5px;
+  }
+   .buttons{
+    text-align: center;
+    margin-bottom: 5px;
+   }
+
+}
+
+@media screen and (max-width:1024px){
+  .box{
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .menu-item{
+    font-size: 1.9em;
+  }
+  
+}

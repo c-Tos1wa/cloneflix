@@ -14,3 +14,11 @@ $('.owl-carousel').owlCarousel({
       }
   }
 })
+
+element.addEventListener('click', watchTrailer);
+
+function watchTrailer(){
+    window.open("https://www.youtube.com/watch?v=bkxJ0DojPJ4");
+}
+
+

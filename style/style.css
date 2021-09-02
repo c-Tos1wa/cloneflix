@@ -87,53 +87,8 @@ body{
   display: block;
 }
 
-.carousel-items{
+.carousel-items:hover{
   cursor: pointer;
+  margin-left: -5px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 650px) {
-  .box{
-    display: flex;
-    flex-direction: column;
-  }
-  .menu-item{
-    font-size: 1em;
-    padding: 4px;
-  }
-
-  .logo{
-    margin: 5px; 
-  }
-
-  .principal{
-    height: auto;
-    width: auto;
-  }
-
-}
-
-@media (max-width:1024px){
-  .box{
-    display: flex;
-    margin-top: 20px;
-  }
-
-  .menu-item{
-    font-size: 1.9em;
-  }
-  
-}
