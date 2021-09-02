@@ -5,14 +5,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CloneFlix</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="./style/style.css">
-  </link>
-  <script></script>
+  <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+  <title>CloneFlix</title>
 </head>
 
 <body>
@@ -25,34 +25,67 @@
         <a class="menu-item" href="#">Filmes</a>
         <a class="menu-item" href="#">Animes</a>
       </nav>
-
     </div>
   </header>
+
   <main>
     <div class="principal">
       <div class="container">
         <img src="./img/fringe-logo.png" alt="logo da serie fringe" class="title" />
         <p class="description">
           Após um acidente aéreo que mata todos os passageiros e a tripulação e quase perder seu parceiro, a agente do
-          FBI Olivia Dunham busca
-          a ajuda do Dr. Walter Bishop, considerado o Einstein da nossa geração. Porém, o bom doutor esteve internado em
-          uma instituição psicológica
-          por 17 anos e somente seu filho perdido, Peter Bishop, pode retirá-lo de lá.
+          FBI Olivia Dunham busca a ajuda do Dr. Walter Bishop, considerado o Einstein da nossa geração. Porém, o bom doutor esteve internado em
+          uma instituição psicológica por 17 anos e somente seu filho perdido, Peter Bishop, pode retirá-lo de lá.
         </p>
         <div class="buttons">
-          <button class="more watch">
-            <i class="glyphicon glyphicon-play"></i> 
-            Assistir
+          <button type="button" class="more watch">
+            <i class="glyphicon glyphicon-play"></i> Assistir
           </button>
-          <button class="more info">
-            <i class="glyphicon glyphicon-info-sign"></i> 
-            Mais Informações
+          <button type="button" class="more info">
+            <i class="glyphicon glyphicon-info-sign"></i> + Informações
           </button>
         </div>
       </div>
-
     </div>
   </main>
+
+  <div class="carrossel-series">
+    <div class="owl-carousel owl-theme">
+      <div class="carousel-items">
+        <img class="box-series" src="./img/911.jpg" alt="poster da serie 911" />
+      </div>
+      <div class="carousel-items">
+        <img class="box-series" src="./img/911Lone.jpg" alt="poster da serie 911 Lone Star" />
+      </div>
+      <div class="carousel-items">
+        <img class="box-series" src="./img/bones.jpg" alt="poster da serie bones" />
+      </div>
+      <div class="carousel-items">
+        <img class="box-series" src="./img/dw.jpg" alt="poster da serie doctor who" />
+      </div>
+      <div class="carousel-items">
+        <img class="box-series" src="./img/friends.jpg" alt="poster da serie friends" />
+      </div>
+      <div class="carousel-items">
+        <img class="box-series" src="./img/grimm.jpg" alt="poster da serie grimm" />
+      </div>
+      <div class="carousel-items">
+        <img class="box-series" src="./img/himym.jpg" alt="poster da serie how i met your mother" />
+      </div>
+      <div class="carousel-items">
+        <img class="box-series" src="./img/macgyver.jpg" alt="poster da serie macgyver" />
+      </div>
+      <div class="carousel-items">
+        <img class="box-series" src="./img/scorpions.jpg" alt="poster da serie scorpions" />
+      </div>
+      <div class="carousel-items">
+        <img class="box-series" src="./img/xfiles.jpg" alt="poster da serie x-files" />
+      </div>
+    </div>
+  </div>
+  <script src="js/owl/jquery.min.js"></script>
+  <script src="js/owl/owl.carousel.min.js"></script>
+  <script src="js/owl/script.js"></script>
 </body>
 
 </html>
